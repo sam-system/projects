@@ -1,0 +1,11 @@
+/* ================= HEADER ================= */
+.header-content {
+	margin: 0 auto;
+	width: 10em;
+}
+
+/* ================= CARD BUTTON ================= */
+.card {
+	margin: 60px auto;
+	width: 1200px;
+}
