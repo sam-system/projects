@@ -1,7 +1,9 @@
 /* ================= HEADER ================= */
 .header-content {
-	margin: 0 auto;
-	width: 10em;
+	background: linear-gradient(135deg, #75b756);
+	color: black;
+	padding: 30px;
+	text-align: center;
 }
 
 /* ================= CARD BUTTON ================= */
