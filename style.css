@@ -6,6 +6,15 @@
     text-align: center;
 }
 
+/* ================= CARDS BACKGROUND ================= */
+.cards-background {
+    background-color: #024831;
+   / width:;
+    margin: 60px auto;
+    padding: 25px;
+    border-radius: 20px;
+}
+
 /* ================= MARGE ================= */
 .sidebar {
     position: absolute;
@@ -14,11 +23,6 @@
     background: #198754;
     top: 105px;
     text-align: center;
-}
-
-/* ================= FOND DE PAGE ================= */
-body {
-    background-color: #121212;
 }
 
 /* ================= CARD CONTAINER ================= */
