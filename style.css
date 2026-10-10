@@ -33,7 +33,6 @@
 /* ================= CARD CONTAINER ================= */
 .card-container {
     width: 500px;
-    max-width: 100%;
     margin: 150px;
     display: grid;
     text-align: center;
@@ -61,7 +60,6 @@
 
 .card-kernelprocess {
     width: 100%;
-    box-sizing: border-box;
     margin: 0;
     color: black;
     background: green;
