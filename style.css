@@ -1,6 +1,6 @@
 /* ================= HEADER ================= */
 .header-content {
-	background: linear-gradient(135deg, #4f992c);
+	background: linear-gradient(135deg, green);
 	padding: 30px;
 	border-radius: 15px;
 	text-align: center;
@@ -20,7 +20,7 @@
   width: 500px;
   margin: 60px auto;
   color: black;
-  background: #4f992c;
+  background: green;
   border-radius: 18px;
   text-align: center;  
   transition:
@@ -32,14 +32,14 @@
 
 .card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 12px 30px #4f992c;
+  box-shadow: 0 12px 30px green;
 }
 
 .card-kernelprocess {
   width: 500px;
   margin: 60px auto;
   color: black;
-  background: #4f992c;
+  background: green;
   border-radius: 18px;
   text-align: center;  
   transition:
@@ -51,5 +51,5 @@
 
 .card-kernelprocess:hover {
   transform: translateY(-5px);
-  box-shadow: 0 12px 30px #4f992c;
+  box-shadow: 0 12px 30px green;
 }
