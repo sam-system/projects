@@ -6,6 +6,15 @@
 	text-align: center;
 }
 
+/* ================= MARGE ================= */
+.layout {
+  position: fixed;
+  left: 0;
+  width: 30%;
+  background: green;
+  border-radius: 18px;
+}
+
 /* ================= CARD CONTAINER ================= */
 .card-container {
   width: 500px;
