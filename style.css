@@ -34,7 +34,7 @@
 .card-container {
     width: 500px;
     max-width: 100%;
-    margin: 60px auto;
+    margin: 150px;
     display: grid;
     text-align: center;
     gap: 30px;
