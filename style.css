@@ -9,11 +9,11 @@
 /* ================= MARGE ================= */
 .sidebar {
 	position: absolute;
-	left: 0;
+	left: 20;
 	width: 50%;
 	background: #198754;
-	border-radius: 18px;
 	top: 135px;
+	text-align: center;
 }
 
 /* ================= CARD CONTAINER ================= */
