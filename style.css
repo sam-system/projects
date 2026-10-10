@@ -6,6 +6,11 @@
     text-align: center;
 }
 
+/* ================= SIDEBAR ================= */
+.marge {
+ border-inline: 50px solid white;
+}
+
 /* ================= CARDS BACKGROUND ================= */
 .cards-background {
     background-color: #024831;
@@ -14,7 +19,7 @@
     border-radius: 20px;
 }
 
-/* ================= MARGE ================= */
+/* ================= SIDEBAR ================= */
 .sidebar {
     position: absolute;
     left: 20px;
