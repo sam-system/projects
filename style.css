@@ -16,14 +16,22 @@
 }
 
 /* ================= CARD BUTTON ================= */
-.button {
-  border-radius: 15px;
-  padding: 11px;
-  border: 2px solid #4f992c;
+.card {
+  max-width: 500px;
+  margin: 60px auto;
+  display: grid;
+  color: black;
+  background: #4f992c;
+  border-radius: 18px;
+  text-align: center;  
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
-.button1 {
-  border-radius: 15px;
-  padding: 11px;
-  border: 2px solid #4f992c;
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px #4f992c;
 }
