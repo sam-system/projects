@@ -15,7 +15,6 @@
 .cards-background {
     background-color: #024831;
     margin: 60px auto;
-    margin-left: 480;
     margin-right: 0;
     padding: 25px;
 }
@@ -23,7 +22,7 @@
 /* ================= SIDEBAR ================= */
 .sidebar {
     position: absolute;
-    left: 30px;
+    left: 29px;
     width: 50%;
     background: #198754;
     top: 105px;
@@ -33,31 +32,14 @@
 /* ================= CARD CONTAINER ================= */
 .card-container {
     width: 500px;
-    margin: 150px;
+    margin: auto;
     display: grid;
     text-align: center;
     gap: 30px;
 }
 
 /* ================= CARD BUTTON ================= */
-.card {
-	width: 500px;
-	margin: 60px auto;
-	color: black;
-	background: green;
-	border-radius: 18px;
-	text-align: center;  
-	transition:
-		transform 0.2s ease,
-    	background 0.2s ease,
-    	border-color 0.2s ease,
-    	box-shadow 0.2s ease;
-}
-.card:hover {
-	transform: translateY(-5px);
-	box-shadow: 0 12px 30px green;
-}
-
+.card,
 .card-kernelprocess {
     width: 100%;
     margin: 0;
