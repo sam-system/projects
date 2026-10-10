@@ -1,0 +1,55 @@
+/* ================= HEADER ================= */
+.header-content {
+    background: green;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+/* ================= MARGE ================= */
+.sidebar {
+    position: absolute;
+    left: 20px;
+    width: 50%;
+    background: #198754;
+    top: 135px;
+    text-align: center;
+}
+
+/* ================= FOND DE PAGE ================= */
+body {
+    background-color: #121212;
+}
+
+/* ================= CARD CONTAINER ================= */
+.card-container {
+    width: 500px;
+    max-width: 100%;
+    margin: 60px auto;
+    display: grid;
+    text-align: center;
+    gap: 30px;
+}
+
+/* ================= CARD BUTTON ================= */
+.card,
+.card-kernelprocess {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    color: black;
+    background: green;
+    border-radius: 18px;
+    text-align: center;
+    transition:
+        transform 0.2s ease,
+        background 0.2s ease,
+        border-color 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.card:hover,
+.card-kernelprocess:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px green;
+}
