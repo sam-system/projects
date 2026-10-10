@@ -41,7 +41,24 @@
 }
 
 /* ================= CARD BUTTON ================= */
-.card,
+.card {
+	width: 500px;
+	margin: 60px auto;
+	color: black;
+	background: green;
+	border-radius: 18px;
+	text-align: center;  
+	transition:
+		transform 0.2s ease,
+    	background 0.2s ease,
+    	border-color 0.2s ease,
+    	box-shadow 0.2s ease;
+}
+.card:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 12px 30px green;
+}
+
 .card-kernelprocess {
     width: 100%;
     box-sizing: border-box;
@@ -56,7 +73,6 @@
         border-color 0.2s ease,
         box-shadow 0.2s ease;
 }
-
 .card:hover,
 .card-kernelprocess:hover {
     transform: translateY(-5px);
