@@ -8,12 +8,12 @@
 
 /* ================= MARGE ================= */
 .sidebar {
-	position: fixed;
+	position: absolute;
 	left: 0;
-	width: 30%;
+	width: 50%;
 	background: #198754;
 	border-radius: 18px;
-	top: 269px;
+	top: 135px;
 }
 
 /* ================= CARD CONTAINER ================= */
