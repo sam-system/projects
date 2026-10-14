@@ -80,7 +80,6 @@ body {
     width: 100%;
     max-width: 500px;
     margin: 40px auto;
-    position: relative;
     top: -1010px;
     
     text-align: center;
@@ -106,6 +105,9 @@ body {
 
     text-align: center;
     text-decoration: none;
+
+    position: relative;
+    top: -1010px;
 
     transition:
         transform 0.2s ease,
